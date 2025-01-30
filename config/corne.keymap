@@ -42,14 +42,14 @@
                 raise_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BSPC |
-// | CTRL |BTCLR|BT1  | UP  |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
+// | CTRL |BTCLR|BT1  | UP  |     | play|   |  -  |  =  |  [  |  ]  |  \  |  `   |
 // | SHFT |     |LEFt |DOWN |RIGHT|     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-//                    | GUI |     | ENT |   | ENT |     | ALT |
+//                    | GUI | SS  | ENT |   | ENT |     | ALT |
                         bindings = <
    &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR &kp BSPC
-   &kp LCTRL &bt BT_CLR   &bt BT_SEL 0 &kp UP   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT &kp BSLH &kp GRAVE
+   &kp LCTRL &bt BT_CLR   &bt BT_SEL 0 &kp UP   &trans   &kp C_PP      &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT &kp BSLH &kp GRAVE
    &kp LSHFT &trans   &kp LEFT &kp DOWN  &kp RIGHT   &trans      &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp PIPE &kp TILDE
-                             &kp LGUI &trans   &kp RET   &kp RET   &trans    &kp RALT
+                             &kp LGUI &kp PSCRN   &kp RET   &kp RET   &trans    &kp RALT
                         >;
                 };
         };
